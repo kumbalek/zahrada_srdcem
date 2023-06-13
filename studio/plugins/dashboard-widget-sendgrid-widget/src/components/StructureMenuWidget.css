@@ -1,0 +1,26 @@
+@import 'part:@sanity/base/theme/variables-style';
+
+.root {
+  composes: container from "part:@sanity/dashboard/widget-styles";
+}
+
+.header {
+  composes: header from "part:@sanity/dashboard/widget-styles";
+}
+
+.title {
+  composes: title from "part:@sanity/dashboard/widget-styles";
+}
+
+.content {
+  padding: 1em;
+  border-top: 1px solid rgba(23, 23, 23, 0.1);
+}
+
+.input {
+  margin-bottom: 1em;
+}
+
+.input p {
+  margin: 0 0 0.5em 0;
+}
